@@ -1,6 +1,6 @@
 import { HfInference } from '@huggingface/inference';
 
-const HF_ACCESS_TOKEN = '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';
+const HF_ACCESS_TOKEN = import.meta.env.API_KEY;
 const hf = new HfInference(HF_ACCESS_TOKEN);
 
 export const generateImageWithHuggingFace = async (prompt) => {
