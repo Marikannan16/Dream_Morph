@@ -47,7 +47,7 @@ const ImageGenerator = () => {
     };
 
     return (
-        <div className='bg-gradient-to-r from-violet-200 to-pink-200 h-screen w-full lg:py-28 py-10'>
+        <div className='bg-gradient-to-r from-violet-200 to-pink-200 h-full lg:h-screen w-full  py-10'>
         <div className={`flex flex-col justify-items-center  ${images.length > 0 ? 'pt-10' : 'pt-28'}`}>
             <h1 className="text-4xl font-bold text-center text-black  mb-6" id='content' >Dream Morph AI Image Generator</h1>
 
