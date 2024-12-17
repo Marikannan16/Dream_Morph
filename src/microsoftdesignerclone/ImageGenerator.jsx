@@ -58,7 +58,7 @@ const ImageGenerator = () => {
                         placeholder="Describe your image..."
                         value={prompt}
                         onChange={(e) => setPrompt(e.target.value)}
-                        className="p-3 border rounded-lg xl:w-[800px] w-96 "
+                        className="p-3 border rounded-lg xl:w-[800px] w-96 pe-36 "
                     />
                     <div className='absolute items-center bg-white  py-0.5 flex top-2 right-0.5 gap-2'>
                         <input
